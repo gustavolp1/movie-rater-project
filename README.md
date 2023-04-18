@@ -8,7 +8,7 @@ https://github.com/gustavolp1/movie-rater-project
 
 se baseia no exercicio do coelho
 
--- 
+--  
 
 fazer a descrição do modelo/ readme
 
