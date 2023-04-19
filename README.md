@@ -20,7 +20,13 @@ Abra `demo.ipynb` e rode todas as células. Note que o processo inteiro pode dem
 
 As notas reais para cada filme são representadas pela matriz `A`, onde cada linha é um usuário e cada linha é um filme.
 Já a matriz `B`, que é gerada pelo programa, representa uma aproximação da nota de cada filme.
-O programa retorna uma matriz
+O programa retorna as diferenças entre o valor real e o valor aproximado.
+
+- gera ruido na matriz
+
+- remove o ruido
+
+- 
 
 # To do
 
