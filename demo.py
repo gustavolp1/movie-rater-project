@@ -36,15 +36,3 @@ df = df.loc[:, df.columns != 'timestamp']
 df_ = pd.pivot_table(data = df, index = 'userId', columns ='movieId', values = 'rating',aggfunc='mean')
 df_ = (df_.fillna(0)).to_numpy()
 df_.shape 
-
-for i in range(1000):
-    B, pos = randomiza_item_matriz(df_)   
-    X, s, Y = np.linalg.svd(B)
-    S = estima_valor1(X,s,Y)
-    D = estima_valor2(X,s,Y)
-    E = estima_valor3(X,s,Y)
-
-    print(df_[pos])
-    print(S[pos])
-    print(D[pos])
-    print(E[pos])
