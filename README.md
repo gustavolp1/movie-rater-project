@@ -51,7 +51,7 @@ Onde:
 
 - Y serve pra selecionar os valores q a gnt quer; eh quadrada pq compara o perfil de um usuario com o de outro
 
-- 
+- mano nao sei o que mais na real, acho que vai ter que ser abstrato mesmo e explicar o que o sistema faz em vez de jogar um trilhão de matrizes no readme que nem na APS passada
 
 # To do
 
