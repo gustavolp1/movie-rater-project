@@ -14,7 +14,9 @@ https://github.com/gustavolp1/movie-rater-project
 
 ## Como usar o programa
 
-Abra `demo.ipynb` e rode todas as células. Note que o processo inteiro pode demorar algumas horas.
+Abra `demo.py` e o execute. Note que o processo inteiro pode demorar algumas horas.
+
+Para a análise de iterações já executadas, abra `demo.ipynb`, uma versão de notebook do arquivo de demo. Os outputs das células contém resultados obtidos previamente.
 
 ## Objetivo
 
@@ -105,9 +107,9 @@ $$
 Com:
 
 - $A_e$ sendo a matriz reconstruida.
-- X autovetores de usuarios por perfil obtidos da matriz modificada.
-- Y_m uma matriz diagonal contendo os 200 primeiros autovalores.
-- e Z os autovalores de perfis por filmes.
+- `X` autovetores de usuários por perfil obtidos da matriz modificada.
+- `Y_m` uma matriz diagonal contendo os 200 primeiros autovalores.
+- e `Z` os autovalores de perfis por filmes.
 
 Agora que realizamos esta reconstrução, podemos então subtrair o valor estimado em $A_e$ do valor original em $A$, obtendo o 'erro' resultante de nosso programa - fazendo este processo varias vezes, no nosso caso mil, obteremos um dataset de erros que representará bem a precisão das estimativas. Segue um histograma deste dataset.
 
